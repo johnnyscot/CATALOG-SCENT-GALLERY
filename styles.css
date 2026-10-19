@@ -16,7 +16,9 @@ header p{position:relative;margin:8px 0 0;color:var(--mu);font-size:11px;letter-
 .sc::-webkit-scrollbar{display:none}
 .chip{flex:none;min-height:38px;background:var(--s1);border:1px solid var(--line);color:var(--mu);padding:0 16px;border-radius:10px;font:500 12px "DM Sans",sans-serif;cursor:pointer;white-space:nowrap}
 .chip.on{background:var(--ac);color:#000;border-color:var(--ac)}
-#auds .chip{min-height:32px;font-size:11px;background:none}
+#auds .chip,#fams .chip{min-height:32px;font-size:11px;background:none}
+#fams .chip{border-color:#3a3320;color:var(--ac)}
+#auds .chip.on,#fams .chip.on{background:var(--ac);color:#000;border-color:var(--ac)}
 .sr{display:flex;gap:8px}
 input,select,textarea{background:var(--s1);border:1px solid var(--line);color:var(--tx);border-radius:10px;padding:0 14px;min-height:44px;font:inherit;font-size:16px}
 .sr input{flex:1;min-width:0}
